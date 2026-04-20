@@ -2,22 +2,22 @@
 
 ## Overview
 
-"Robust data persistence system"
+"Data system" designed with scalability and security in mind.
 
 ## Features
 
+- Modular structure
 - Server-side validation
-- Modular architecture
-- Scalable design
+- Scalable architecture
 - Secure execution
 
 ## Architecture
 
-This system follows a server-authoritative model:
+Server-authoritative design:
 
-- All critical logic runs on the server
-- Clients are treated as untrusted
-- All remote interactions are validated
+- Server handles all logic
+- Client is not trusted
+- Data is validated
 
 ## Structure
 
@@ -28,6 +28,10 @@ src/
 
 docs/
 
+## Entry Point
+
+src/Server/MainModule.lua
+
 ## Status
 
-In development
+Ready for development
