@@ -3,3 +3,7 @@ function System.Initialize(
 end
 
 return System
+    print("System initialized")
+end
+
+return System
